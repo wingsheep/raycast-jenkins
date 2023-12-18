@@ -30,9 +30,7 @@ You will need to have [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io/)
 
 There is **no plan** to publish to the bloated [raycast/extensions](https://github.com/raycast/extensions) until they make a decentralized publishing system.
 
-### Screenshot
-
-![](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/Kapture%202023-12-18%20at%2017.14.34.mp4)
+### Demo video
 
 [![Watch the video](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/raycast-jenkins.png)](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/Kapture%202023-12-18%20at%2017.14.34.mp4)
 
