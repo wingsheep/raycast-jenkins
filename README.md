@@ -32,7 +32,8 @@ There is **no plan** to publish to the bloated [raycast/extensions](https://gith
 
 ### Demo video
 
-[![Watch the video](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/raycast-jenkins.png)](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/Kapture%202023-12-18%20at%2017.14.34.mp4)
+https://github.com/wingsheep/raycast-jenkins/assets/26684771/d1490789-8dd5-4685-9942-94c13123b3a4
+
 
 ### Features
 
