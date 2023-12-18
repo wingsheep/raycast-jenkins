@@ -89,7 +89,7 @@ export default function BuildHistory(props: { jobName: string }) {
       setDetailInfo(detailInfo)
       await showToast({
         style: Toast.Style.Success,
-        title: `Build Success: ${props.jobName} #${findItem.number}`,
+        title: `Build End: ${props.jobName} #${findItem.number}`,
       })
     })
     return logStream
