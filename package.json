@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "jenkins",
   "title": "Jenkins",
-  "description": "Jenkins is a tool for Raycast extensions",
+  "description": "TA Raycast extension that manages Jenkins.",
   "icon": "command-icon.png",
   "author": "wingsheep",
   "categories": [
@@ -13,7 +13,7 @@
     {
       "name": "index",
       "title": "Jenkins",
-      "description": "Jenkins is a tool for Raycast extensions",
+      "description": "A Raycast extension that manages Jenkins.",
       "mode": "view"
     }
   ],
