@@ -1,0 +1,73 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "jenkins",
+  "title": "Jenkins",
+  "description": "Jenkins is a tool for Raycast extensions",
+  "icon": "command-icon.png",
+  "author": "wingsheep",
+  "categories": [
+    "Developer Tools"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Jenkins",
+      "description": "Jenkins is a tool for Raycast extensions",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "webUrl",
+      "label": "Jenkins Web Url",
+      "description": "Enter jenkins web url",
+      "type": "textfield",
+      "title": "Jenkins Web Url",
+      "required": true
+    },
+    {
+      "name": "username",
+      "label": "Jenkins User Name",
+      "description": "Enter jenkins username",
+      "type": "textfield",
+      "title": "Jenkins User Name",
+      "required": true
+    },
+    {
+      "name": "password",
+      "label": "Jenkins Password",
+      "description": "Enter jenkins password",
+      "type": "password",
+      "title": "Jenkins Password",
+      "required": true
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.48.9",
+    "@raycast/utils": "^1.10.1",
+    "change-case": "^4.1.2",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.10",
+    "jenkins": "^1.0.2",
+    "node-fetch": "^3.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "1.0.5",
+    "@types/jenkins": "^1.0.2",
+    "@types/node": "18.8.3",
+    "@types/react": "18.0.9",
+    "@types/uuid": "^9.0.7",
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}
