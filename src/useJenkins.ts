@@ -155,7 +155,7 @@ export async function getBuildInfo(jobName: string, buildNumber: number) {
 export function handleParametersDefinitionProperty(property = <any>[]) {
   const initialValues: any = {}
   const data = property.find((item: ParameterDefintion) => item._class === PROPERTY_CLASS)
-    data.parameterDefinitions.map((item: ParameterDefintion) => {
+    data.parameterDefinitions?.map((item: ParameterDefintion) => {
       if (item.name === 'build_type') {
         item.formType = FORM_TYPE.Dropdown
         item.options = Object.keys(BUILD_TYPE).map((key) => {

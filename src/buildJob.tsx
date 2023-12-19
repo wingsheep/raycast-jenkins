@@ -15,7 +15,7 @@ export default function BuildJob(
     }
   }) {
   const [parametersDefinitionProperty, setParametersDefinitionProperty] = useState<ParameterDefintion[]>(() => props.parameters.parameterDefinitions)
-  const [deployHost, setDeployHost] = useState<string>(() => props.parameters.parameterDefinitions.find((item: ParameterDefintion) => item.name === 'deploy_host')?.defaultParameterValue.value as string)
+  const [deployHost, setDeployHost] = useState<string>(() => props.parameters.parameterDefinitions?.find((item: ParameterDefintion) => item.name === 'deploy_host')?.defaultParameterValue.value as string)
   const { push, pop } = useNavigation()
 
   function changeTextField(e: string, name: string) {
