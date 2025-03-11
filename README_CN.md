@@ -28,11 +28,6 @@
 
 在 [raycast/extensions](https://github.com/raycast/extensions) 制作去中心化发布系统之前，**没有计划** 发布到 bloated。
 
-## 命令行工具 
-http://git.hgj.net/json.zhou/hgj-ops
-
-配合命令行工具使用更佳
-
 ### 演示视频
 
 https://github.com/wingsheep/raycast-jenkins/assets/26684771/d1490789-8dd5-4685-9942-94c13123b3a4
