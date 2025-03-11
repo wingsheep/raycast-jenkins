@@ -57,7 +57,7 @@ export default function Command(props: LaunchProps<{ arguments: any }>) {
   }
   React.useEffect(() => {
     initData()
-    return () => {   
+    return () => {
       cancelRef.current?.abort()
     }
   }, [])
